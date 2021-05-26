@@ -2,4 +2,4 @@ header {background: red; width:100%; height: 57px;}
 section {background: green; width:100%; height: 100%; float: left; }
 aside {background: orange; width:100%; height: 100%; float: right; }
 footer { background: blue; width:100%; height: 100%; clear: both; }
-p {font: Arial, sans-serif; color: red; text-align: center; font-size: 50px;}
+p {font: Arial, sans-serif; color: rgb(22, 182, 155); text-align: center; font-size: 50px;}
