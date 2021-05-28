@@ -106,7 +106,7 @@ header .menu-toggle {
 
     .showing {
         max-height: 100em;
-        
+
     }
 
     header ul li {
@@ -122,6 +122,10 @@ header .menu-toggle {
         background: #008489;
         color: white;
         padding-left: 50px;
+    }
+
+    header ul li ul li a:hover {
+        background: #003d3f;
     }
     
     header ul li ul li a.logout {
