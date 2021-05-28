@@ -94,6 +94,9 @@ header .menu-toggle {
 }
 
 @MEDIA only screen and (max-width: 750px) {
+    header {
+        position: relative;
+    }
     header ul {
         width: 100%;
         background: #008489;
@@ -121,6 +124,9 @@ header .menu-toggle {
     }
     header .menu-toggle {
         display: block;
+        right: 20px;
+        top: 10px;
+        font-size: 1.5em;
     }
 
 }
