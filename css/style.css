@@ -60,11 +60,11 @@ header ul li:hover ul {
 header ul li ul li {
     width: 100%;
 }
-
+ 
 header ul li ul li a {
     padding: 10px;
-    color: white;
-    background-color: #008489;
+    background: #008489;
+    color: #444;
 }
 
 header ul li ul li a:hover {
@@ -103,6 +103,12 @@ header .menu-toggle {
         max-height: 0px;
         overflow: hidden;
     }
+
+    .showing {
+        max-height: 100em;
+        
+    }
+
     header ul li {
         width: 100%;
     }
@@ -124,11 +130,14 @@ header .menu-toggle {
     }
     header .menu-toggle {
         display: block;
+        position: absolute;
         right: 20px;
-        top: 10px;
-        font-size: 1.5em;
+        top: 20px;
+        font-size: 1.9em;
     }
-
+    header .logo {
+        margin-left: .5em;
+    }
 }
 
 
