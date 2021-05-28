@@ -97,7 +97,8 @@ header .menu-toggle {
     header ul {
         width: 100%;
         background: #008489;
-
+        max-height: 0px;
+        overflow: hidden;
     }
     header ul li {
         width: 100%;
