@@ -1,12 +1,14 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     padding: 0px;
     margin: 0px;
     background: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
 }
+
 header {
     background: #008489;
     height: 66px;
@@ -20,17 +22,19 @@ header .logo {
      float: left;
      height: inherit;
      margin-left: 2em;
-
+    text-decoration: none;
 }
 
 header .logo-text {
     margin: 10px;
     font-family: 'Sigmar One', cursive;
     text-decoration: none;
+
 }
 
 header .logo-text span{
     color: #0f0094;
+    text-decoration: none;
 }
 
 header ul {
