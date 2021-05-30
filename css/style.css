@@ -26,6 +26,7 @@ header .logo {
 header .logo-text {
     margin: 10px;
     font-family: 'Sigmar One', cursive;
+    text-decoration: none;
 }
 
 header .logo-text span{
